@@ -1,0 +1,37 @@
+{
+    "name": "dukemonokai",
+    "displayName": "Duke Monokai",
+    "description": "A dark theme inspired by DukeDark and Monokai themes.",
+    "version": "0.0.1",
+    "publisher":"cafeduke",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "duke",
+        "dark",
+        "monokai",
+        "theme"
+    ],
+    "icon": "images/dukedark_icon_128.png",
+    "galleryBanner": {
+      "color": "#23231e",
+      "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cafeduke/vscode-dukemonokai-theme.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Duke Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DukeMonokai-color-theme.json"
+            }
+        ]
+    }
+}
